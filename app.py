@@ -1,8 +1,8 @@
 import streamlit as st
-import os  
+# import os  
 from openai import OpenAI  
   
-os.environ["OPENAI_API_KEY"] = "sk-hNNkUfzfA3dqIG5foNougSGVE8e1JiWvyPAaurYqPOT3BlbkFJhpVqn4k6ed782gMD8TN_ugHdn4onWTRtTk1JGiPqkA"  
+# os.environ["OPENAI_API_KEY"] = "sk-hNNkUfzfA3dqIG5foNougSGVE8e1JiWvyPAaurYqPOT3BlbkFJhpVqn4k6ed782gMD8TN_ugHdn4onWTRtTk1JGiPqkA"  
 client = OpenAI()
 
 # Streamlit 애플리케이션 설정
