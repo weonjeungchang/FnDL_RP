@@ -17,7 +17,7 @@ st.info("2023년10월29일(부터 11월7일까지의) 대한민국 주식시장�
 st.caption(":red[금지어 : 킥보드, 갤럭시탭, 음주운전]")
 
 # 사용자 입력 받기
-user_input = st.text_input("질문을 입력하세요:", "")
+user_input = st.text_area("질문을 입력하세요:", "", height=3)
 
 # 버튼을 누를 때만 응답을 처리하도록 설정
 if st.button("답변 받기"):
