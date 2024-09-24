@@ -12,8 +12,7 @@ st.subheader("[FnDataLab] 궁금한 점이 있으면 물어보세요.")
 
 st.write("질문 예시 :")
 st.info("2023년10월29일(부터 11월7일까지의) 대한민국 주식시장과 원달러 환율에 대해 알려주세요")
-st.write("금지어 :")
-st.info("킥보드")
+st.write("금지어 : 킥보드, 갤럭시탭, 음주운전")
 
 # 사용자 입력 받기
 user_input = st.text_input("질문을 입력하세요:", "")
