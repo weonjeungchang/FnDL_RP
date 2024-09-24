@@ -8,7 +8,7 @@ st.set_page_config(page_title="FnDL GPT-4o Chatbot", page_icon="💯")
 
 # 애플리케이션 헤더
 # st.title("GPT-4o 기반 챗봇")
-st.header("[FnDataLab] 궁금한 점이 있으면 물어보세요.")
+st.header("[FnDataLab] 궁금한 점 물어보세요.")
 st.subheader("GPT-4o 기반 챗봇")
 
 st.write("질문 예시 :")
